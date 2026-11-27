@@ -1869,3 +1869,9 @@ section,
 .footer .footer-links p strong {font-size:15px;line-height:1.8;color:#f0f3f7}
 .footer .footer-links p a {font-size:15px;font-weight:800;color:#fff;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
 .footer .copyright p {font-size:14px;font-weight:700;color:#f0f3f7}
+
+
+/* Footer contact details use regular, consistent typography */
+.footer .footer-links p span.footer-contact-regular,
+.footer .footer-links p a.footer-contact-regular{font-weight:500!important;color:#f0f3f7}
+.footer .footer-links p a.footer-contact-regular{text-decoration:none}
