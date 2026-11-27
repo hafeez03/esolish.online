@@ -1875,3 +1875,9 @@ section,
 .footer .footer-links p span.footer-contact-regular,
 .footer .footer-links p a.footer-contact-regular{font-weight:500!important;color:#f0f3f7}
 .footer .footer-links p a.footer-contact-regular{text-decoration:none}
+
+
+/* Use the same warm-gold footer section headings across legacy pages */
+.footer .footer-newsletter h4,
+.footer .footer-links h4,
+.footer h4{color:#d6ad55!important}
