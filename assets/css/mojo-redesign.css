@@ -15,3 +15,13 @@
 .service-card>a{display:grid;place-items:center;width:38px;height:38px;border:1px solid rgba(99,214,237,.25);border-radius:50%;bottom:22px;right:22px}
 .service-card>a:hover{background:var(--blue);color:#fff}
 @media(max-width:991px){.footer-column{margin-top:5px}}
+
+
+/* Improved footer readability */
+.footer-column h4{font-size:15px;letter-spacing:.12em;color:#dce8f5;font-weight:800;margin:5px 0 20px}
+.footer-column>a,.footer-column>span{font-size:16px;font-weight:700;line-height:1.65;margin:0 0 14px;color:#f0f5fb}
+.footer-column .legal-link{font-size:16px;font-weight:800;color:#fff}
+.footer-contact .footer-contact-value,.footer-contact .footer-email{font-size:15px;font-weight:800;color:#fff}
+.footer-column>p{font-size:14px;line-height:1.8;color:#d4dfeb;margin:0 0 11px}
+.footer-subscribe-form .subscribe-row input{font-size:14px}
+.footer-subscribe-form .subscribe-row input::placeholder{color:#aebed0}
