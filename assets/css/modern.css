@@ -352,3 +352,15 @@ textarea {
 }
 
 .footer .footer-newsletter p:last-child { margin-bottom: 0; }
+
+
+/* Contact page: reduce vertical whitespace so the message form appears sooner */
+.contact-page .page-title{padding:28px 0}
+.contact-page #contact.section{padding:28px 0}
+.contact-page #contact>.container.section-title{padding-bottom:18px}
+.contact-page #contact>.container.section-title p{margin-bottom:0}
+.contact-page #contact .row.gy-4{--bs-gutter-y:.75rem}
+.contact-page #contact .info-item{padding:14px 20px}
+.contact-page #contact .row.mt-3{margin-top:.75rem!important}
+.contact-page #contact .contact-us-form{padding:20px}
+@media(max-width:767px){.contact-page .page-title{padding:22px 0}.contact-page #contact.section{padding:24px 0}.contact-page #contact>.container.section-title{padding-bottom:14px}}
